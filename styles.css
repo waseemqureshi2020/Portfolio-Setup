@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(60, 58, 57, 1)
+}
+
+.name {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    display:flex;
+    flex: none;
+    order: 0;
+    flex-direction: row;
+    padding: 10px 12px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.logo-menu {
+    display: flex;
+    justify-content: space-around;
+}
+.menu-box {
+    width: 24px;
+    height:24px;
+    padding: 10px 12px;
+}
+.intro {
+    color: #FF6B00;
+    width: 327px;
+    height: 124px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    padding: 0 10px;
+
+}
+.work {
+    color: #FFF5E1;
+    width: 327px;
+    height: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 1;
+    padding: 0 10px;
+}
+.work-detail {
+    color: #FFFFFF;
+    width: 327px;
+    height: 123px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 2;
+    justify-content: center;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200px;
+    height: 40px;
+    flex: none;
+    order: 3;
+    padding: 0 0 0 -80px;
+}
+li {
+    display:inline-flex;
+    flex-direction: row;
+}
+.illu {
+    position: absolute;
+    top: 245px;
+    left: 230px;
+    overflow: hidden;
+}
