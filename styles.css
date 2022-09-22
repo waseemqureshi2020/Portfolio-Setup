@@ -3,7 +3,7 @@ body {
 }
 
 .name {
-  color: #ffffff;
+  color: #fff;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -26,14 +26,15 @@ body {
 
 .menu-box {
   width: 24px;
-  height:24px;
+  height: 24px;
   padding: 10px 12px;
 }
+
 .intro {
   color: #ff6b00;
   width: 327px;
   height: 124px;
-  font-family: 'sans-serif';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 56px;
@@ -57,8 +58,9 @@ body {
   order: 1;
   padding: 0 10px;
 }
+
 .work-detail {
-  color: #FFFFFF;
+  color: #FFF;
   width: 327px;
   height: 123px;
   font-family: sans-serif;
