@@ -3,7 +3,7 @@ body {
   width: 100%;
   padding: auto;
   margin: auto;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .name {
@@ -45,7 +45,6 @@ overflow-x: hidden;
 .work {
   color: #fff5e1;
   position: relative;
-  left: 0px;
   font-size: 24px;
 }
 
@@ -144,11 +143,6 @@ img {
   display: cover;
 }
 
-.hamburg {
-  position: relative;
-  top: 0px;
-}
-
 .header-menu,
 .main-nav,
 .logo-menu,
@@ -193,10 +187,6 @@ p {
   left: 2.6px;
   font-size: 18px;
   display: inline-flex;
-}
-
-.intro-section {
-  padding: 15px;
 }
 
 .post-type1 {
@@ -363,7 +353,9 @@ h3 {
   line-height: 60px;
 }
 
-.language-title, .framework-title, .skill-title {
+.language-title,
+.framework-title,
+.skill-title {
   font-size: 32px;
   flex-direction: row;
 }
@@ -403,10 +395,11 @@ h3 {
   justify-content: center;
   padding: 0px 12px;
   font-weight: 700;
-  width: 80%
+  width: 80%;
 }
 
-#full-name, #email {
+#full-name,
+#email {
   width: 80%;
   height: 100%;
   line-height: 40px;
