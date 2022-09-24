@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: rgba(60, 58, 57, 1);
-  }
+}
 
 .menu-box {
   width: 24px;
@@ -148,7 +148,7 @@ img {
 .main-nav,
 .logo-menu,
 .menu-box,
-.hamburg,{
+.hamburg {
   background-color: rgba(60, 58, 57, 1);
 }
 
@@ -489,6 +489,6 @@ img:hover {
 }
 
 .intro-section {
-    background-color: rgba(60, 58, 57, 1);
-    padding: 40px;
-  }
+  background-color: rgba(60, 58, 57, 1);
+  padding: 40px;
+}
