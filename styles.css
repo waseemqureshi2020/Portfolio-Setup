@@ -314,7 +314,7 @@ h2.about-me-heading {
   width: 40%;
 }
 .divider {
-  border: 3px solid #bbb;
+  border: 1px solid #bbb;
   width: 100%;
   postion: relative;
   display: flex;
@@ -323,4 +323,63 @@ h2.about-me-heading {
 .about-me {
   background-color: rgba(60, 58, 57, 1);
   padding: 0 12px;
+}
+
+#rectangle {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 55%;
+  top: 12%;
+}
+
+.languages, .frameworks, .skills {
+  display: inline-flex;
+  position: relative;
+}
+
+h3 {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  bottom: -25px;
+  left: 120px;
+}
+
+.language-list, .framework-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 20px;
+  left: 50%;
+  color: #fff;
+  letter-spacing: 0.5px;
+  line-height: 60px;
+}
+
+.language-title, .framework-title {
+  font-size: 32px;
+  flex-direction: row;
+}
+
+#rectangle2 {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 45%;
+  top: 12%;
+}
+
+.framework-list {
+  position: relative;
+  left: 40%;
+  top: 8px;
+}
+
+#rectangle3 {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 45%;
+  top: 12%;
 }
