@@ -257,7 +257,6 @@ div.post-content {
   top: 330px;
   border: 1px solid #8993a4;
   font-size: 16px;
-  padding: 0px 12px;
   color: white;
 }
 
@@ -384,7 +383,7 @@ h3 {
 .contact-form-para {
   color: rgba(60, 58, 57, 1);
   font-size: 32px;
-  position: relative; 
+  position: relative;
   left: 50px;
   line-height: 60px;
   display: flex;
@@ -392,7 +391,7 @@ h3 {
   align-items: center;
   justify-content: center;
   padding: 0px 12px;
-  font-weight: 700;
+  
   width: 80%;
 }
 
@@ -454,7 +453,6 @@ textarea {
   left: 20px;
   border-radius: 4px;
   padding: 12px 10px;
-  border-radius: 4px;
 }
 
 img:hover {
@@ -462,7 +460,7 @@ img:hover {
 }
 
 .btn-new:hover {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   border-radius: 4px;
 }
 
@@ -474,7 +472,7 @@ img:hover {
 .btn-primary:hover {
   background-color: #fff;
   border-radius: 4px;
-  color: #FF6B00;
+  color: #ff6b00;
   font-weight: 700;
 }
 
