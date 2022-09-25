@@ -5,9 +5,13 @@ Built With
 
 HTML
 CSS
-Authors 👤 Waseem Qureshi
 
-GitHub: @waseemqureshi2020 Twitter: @WASEEMQ2020 LinkedIn: https://www.linkedin.com/in/waseem-qureshi-2231741a2/
+Authors
+👤 Waseem Qureshi
+
+GitHub:@waseemqureshi2020
+Twitter:@WASEEMQ2020
+LinkedIn:https://www.linkedin.com/in/waseem-qureshi-2231741a2/
 
 🤝 Contributing Contributions, issues, and feature requests are welcome!
 
