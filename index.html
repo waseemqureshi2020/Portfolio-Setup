@@ -200,11 +200,11 @@
             <p class="contact-form-para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
         <div class="contact-form">
-            <form action="https://formspree.io/f/{form_id}" method="post">
-               <input type="text" id="name" name="user_name" placeholder="Full Name" required maxlength="30">
-                <input name="Email" id="email" type="email" placeholder="Email" required>
-                <textarea maxlength="500" placeholder="Enter text here" required>Enter text here</textarea>
-                <button type="submit">Submit</button>
+            <form action="https://formspree.io/f/{form_id}" method="post" class="form">
+               <input class="form-name-email" type="text" id="name" name="user_name" placeholder="Full Name" required maxlength="30" />
+                <input class="form-name-email" name="Email" type="email" placeholder="Email Address" required />
+                <textarea class="form-textarea" cols="6" rows="6" maxlength="500" placeholder="Enter text here" required>Enter text here</textarea>
+                <button type="submit" class="btn form-button">Get in touch</button>
               </form>
         </div>
     </div>
