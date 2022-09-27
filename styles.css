@@ -398,13 +398,10 @@ h3 {
   left: 14px;
   width: 327px;
   height: 216px;
-  font-family: 'Inter';
+  font-family: Inter, Sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
   text-align: center;
-  color: #172B4D;
 }
 
 #full-name,
@@ -446,7 +443,6 @@ textarea {
 .contact-form {
   width: 80%;
   padding: 24px 10px;
-
   font-size: 24px;
 }
 
@@ -528,7 +524,7 @@ img:hover {
   line-height: 24px;
   height: 48px;
   border-bottom: #dbd8d7 1px solid;
-  margin: 0px 24px;
+  margin: 0 24px;
 }
 
 .form-textarea {
@@ -565,7 +561,7 @@ input {
   align-items: center;
   width: 131px;
   height: 48px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
   gap: 24px;
