@@ -309,10 +309,11 @@ h2.about-me-heading {
 }
 
 .divider {
-  border: 1px solid #bbb;
   width: 100%;
   position: relative;
   display: flex;
+  right: 65px;
+  margin: 58px;
 }
 
 .about-me {
@@ -389,12 +390,18 @@ h3 {
   color: rgba(60, 58, 57, 1);
   font-size: 32px;
   position: relative;
-  left: 50px;
   line-height: 60px;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  left: 14px;
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
 }
 
 #full-name,
@@ -434,7 +441,9 @@ textarea {
 }
 
 .contact-form {
-  padding: 58px;
+  width: 80%;
+  padding: 24px 10px;
+  font-size: 24px;
 }
 
 #end-space {
@@ -442,6 +451,7 @@ textarea {
   width: 134px;
   height: 5px;
   left: calc(50% - 134px / 2 - 0.5px);
+  top: 8px;
 }
 
 .btn-resume {
@@ -495,4 +505,81 @@ img:hover {
 .intro-section {
   background-color: rgba(60, 58, 57, 1);
   padding: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  padding-top: 58px;
+}
+
+.form-name-email {
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  height: 48px;
+  border-bottom: #dbd8d7 1px solid;
+  margin: 0 24px;
+}
+
+.form-textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  background: #fbf8f7;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border-width: 0;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+.form-button {
+  background-color: #ff6b00;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #fff;
+  position: relative;
+  left: 90px;
+  border: 1px solid #8993a4;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 131px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  gap: 24px;
+}
+
+.form-button:hover {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #ff6b00;
+  font-weight: 700;
+  transition: ease-in;
+}
+
+.divider2 {
+  position: relative;
+  width: 180%;
+  border: 0.1px solid #bbb;
+  background: #2f2b2a;
+  display: flex;
+  right: 50%;
 }
