@@ -498,7 +498,7 @@ img:hover {
 }
 
 .form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -507,36 +507,26 @@ img:hover {
 
 .form-name-email {
   width: 100%;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   height: 48px;
-  border-bottom: #DBD8D7 1px solid;
+  border-bottom: #dbd8d7 1px solid;
 }
 
 .form-textarea {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #3C3A39;
-  background: #FBF8F7;
-
+  color: #3c3a39;
+  background: #fbf8f7;
 }
 
 input {
   border-width: 0;
   border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial;
-}
-
-textarea {
-  border-width: 0;
-  border-style: solid;
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   border-image: initial;
 }
