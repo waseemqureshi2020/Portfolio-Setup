@@ -201,9 +201,9 @@
         </div>
         <div class="contact-form">
             <form action="https://formspree.io/f/{form_id}" method="post">
-               <input type="text" id="name" name="user_name" placeholder="Full Name" required>
+               <input type="text" id="name" name="user_name" placeholder="Full Name" required maxlength="30">
                 <input name="Email" id="email" type="email" placeholder="Email" required>
-                <textarea>Enter text here</textarea>
+                <textarea maxlength="500" placeholder="Enter text here" required>Enter text here</textarea>
                 <button type="submit">Submit</button>
               </form>
         </div>
