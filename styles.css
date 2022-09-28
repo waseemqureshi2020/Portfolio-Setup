@@ -6,6 +6,17 @@ body {
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .desktop-header {
+    display: none;
+  }
+
 .name {
   color: #fff;
   font-family: sans-serif;
@@ -16,6 +27,12 @@ body {
   top: 36px;
 }
 
+@media (max-width: 576px) {
+  .name {
+    font-size: 1em;
+    top: 50px;
+  }
+}
 .logo-menu {
   display: flex;
   justify-content: space-around;
@@ -46,6 +63,7 @@ body {
 .work {
   color: #fff5e1;
   position: relative;
+  top: 10px;
   font-size: 24px;
 }
 
@@ -154,11 +172,19 @@ img {
   background-color: rgba(60, 58, 57, 1);
 }
 
+.hamburg {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 45px;
+}
+
 h1 {
   margin: 0;
   padding: 0;
   position: relative;
   top: 12px;
+  font-size: 20px;
 }
 
 .header-menu {
@@ -309,11 +335,12 @@ h2.about-me-heading {
 }
 
 .divider {
-  width: 100%;
+  width: 90%;
   position: relative;
   display: flex;
-  right: 65px;
+  right: 45px;
   margin: 58px;
+  border: 0.5px solid #fff
 }
 
 .about-me {
@@ -322,11 +349,11 @@ h2.about-me-heading {
 }
 
 #rectangle {
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   position: absolute;
-  left: 35%;
-  top: 12%;
+  left: 30%;
+  top: 11%;
 }
 
 .languages,
@@ -351,7 +378,7 @@ h3 {
   flex-direction: column;
   position: relative;
   font-size: 20px;
-  left: 30%;
+  left: 27.5%;
   color: #fff;
   letter-spacing: 0.5px;
   line-height: 60px;
@@ -365,10 +392,10 @@ h3 {
 }
 
 #rectangle2 {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   position: absolute;
-  left: 30%;
+  left: 28%;
   top: 12%;
 }
 
@@ -379,11 +406,11 @@ h3 {
 }
 
 #rectangle3 {
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   position: absolute;
-  left: 30%;
-  top: 12%;
+  left: 28%;
+  top: 11%;
 }
 
 .contact-form-para {
@@ -459,7 +486,7 @@ textarea {
   font-size: 16px;
   color: #fff;
   position: relative;
-  top: 10px;
+  top: 20px;
   left: 20px;
   border: 1px solid #8993a4;
   padding: 12px 10px;
@@ -582,4 +609,6 @@ input {
   background: #2f2b2a;
   display: flex;
   right: 50%;
+}
+
 }

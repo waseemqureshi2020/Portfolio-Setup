@@ -1,0 +1,122 @@
+@media only screen and (min-width: 577px) {
+  .desktop-menu {
+    display: flex;
+    justify-content: start;
+    background-color: rgba(60, 58, 57, 1);
+    line-height: 36px;
+    background-color: #3E3C3C;
+  }
+
+  .name-desktop {
+    color: #fff;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6em;
+    position: relative;
+    top: 48px;
+  }
+
+  .desktop-h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 0 72px;
+    font-size: 18px;
+  }
+
+  .desktop-item {
+    color: #fff;
+    display: inline-flex;
+    float: right;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 75px;
+    margin: 30px 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .intro-section {
+    background-color: #1C1A19;
+  }
+
+  .intro {
+  width: 566px;
+  height: 160px;
+  color: #F55800;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  margin: 192px;
+  }
+
+  .work {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 160px;
+  left: 180px
+  }
+
+body,main {
+    background-color: #1C1A19;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C1A19;
+  color: #fff;
+  position: relative;
+  bottom: 160px;
+  font-family: 'Inter', 'Times New Roman', Times, serif
+  font-style: normal;
+  font-weight: 10;
+  font-size: 16px;
+  margin: 0 202px;
+  max-width: 38%;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20px;
+  height: 98.96px;
+  flex: none;
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  line-height: 40px;
+}
+
+.scoial-sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
