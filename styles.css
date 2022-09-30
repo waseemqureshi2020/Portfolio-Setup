@@ -187,10 +187,6 @@ h1 {
   font-size: 20px;
 }
 
-.header-menu {
-  margin: -1px;
-}
-
 p {
   color: #fff;
   position: relative;
@@ -609,6 +605,10 @@ input {
   background: #2f2b2a;
   display: flex;
   right: 50%;
+}
+
+.social-links-desktop, .desktop-form, .desktop-about-me, .desktop-skills, .desktop-projects, .desktop-contact, .desktop-posts-section {
+  display: none;
 }
 
 }
