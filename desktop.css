@@ -468,7 +468,7 @@ a {
   align-items: center;
 }
 
-.form-list .btn {
+.form-list .btn1 {
   width: 131px;
   height: 48px;
 }
@@ -509,7 +509,7 @@ a {
   letter-spacing: 1px;
 }
 
-.form-list .btn {
+.form-list .btn1 {
   margin: 1rem 0 0 0;
   background-color: #F55800;
   color: #fff;
@@ -603,8 +603,8 @@ footer {
   font-size: 15px;
 }
 
-.btn:hover {
-  background-color: black;
+.btn1:hover {
+  background-color:black;
   color: #ff5800;
   border-radius: 10px;
   transition: linear 0.3s;
