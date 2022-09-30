@@ -473,7 +473,7 @@
     align-items: start;
   }
 
-  .form-list .btn {
+  .form-list .btn1 {
     width: 131px;
     height: 48px;
     margin: 1rem 0 0 0;
@@ -594,7 +594,7 @@
     font-size: 15px;
   }
 
-  .btn:hover {
+  .btn1:hover {
     background-color: black;
     color: #ff5800;
     border-radius: 10px;
