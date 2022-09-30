@@ -28,7 +28,7 @@ body {
     top: 36px;
   }
 
-    @media (max-width: 786px) {
+  @media (max-width: 786px) {
     .name {
       font-size: 1em;
       top: 50px;
@@ -608,7 +608,14 @@ body {
     right: 50%;
   }
 
-  .social-links-desktop, .desktop-form, .desktop-about-me, .desktop-skills, .desktop-projects, .desktop-contact, .desktop-posts-section, #background-desktop {
+  .social-links-desktop,
+  .desktop-form,
+  .desktop-about-me,
+  .desktop-skills,
+  .desktop-projects,
+  .desktop-contact,
+  .desktop-posts-section,
+  #background-desktop {
     display: none;
   }
 

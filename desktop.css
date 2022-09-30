@@ -53,7 +53,7 @@
   .intro {
     width: 566px;
     color: #f55800;
-    font-family: 'Crete Round',sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -117,7 +117,7 @@
     float: left;
   }
 
-ul {
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -223,7 +223,7 @@ ul {
     left: 775px;
     border: 1px soli#8993a4;
     padding: 8px 14px;
-    }
+  }
 
   .posts-section,
   .about-me,
@@ -294,7 +294,8 @@ ul {
     top: 112px;
   }
 
-  .posts-heading, .posting-side {
+  .posts-heading,
+  .posting-side {
     display: inline-flex;
     position: relative;
     left: 5px;
@@ -452,7 +453,7 @@ ul {
     display: grid;
     grid-template-columns: 40% 60%;
     background-color: #fff;
-    margin: 0px 40px;
+    margin: 0 40px;
     padding: 0 40px;
     height: 450px;
   }
@@ -470,14 +471,13 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: start;
-    flex-direction: column;
   }
 
   .form-list .btn {
     width: 131px;
     height: 48px;
     margin: 1rem 0 0 0;
-    background-color: #F55800;
+    background-color: #f55800;
     color: #fff;
   }
 
@@ -535,7 +535,7 @@ ul {
   .divider3 {
     width: 100%;
     border: 0.5px solid silver;
-    position: relative; 
+    position: relative;
     align-items: center;
     justify-content: center;
     background-color: rgba(38, 38, 38, 1);
@@ -549,7 +549,7 @@ ul {
     height: 40px;
   }
 
-  .top-links:hover  {
+  .top-links:hover {
     color: #f55800;
   }
 
