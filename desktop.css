@@ -1,4 +1,4 @@
-@media only screen and (min-width: 577px) {
+@media only screen and (min-width: 786px) {
   .desktop-menu {
     display: flex;
     justify-content: start;
@@ -27,6 +27,7 @@
   .desktop-item {
     color: #fff;
     display: inline-flex;
+    flex: 1 1 auto;
     justify-content: space-between;
     float: right;
     flex-direction: column;
@@ -34,7 +35,7 @@
     font-size: 18px;
     position: relative;
     bottom: 70px;
-    margin: 30px 20px;
+    margin: 30px 40px;
     justify-content: center;
     align-items: center;
   }
@@ -206,7 +207,7 @@ ul {
 
   .main-post {
     margin: 10px 5px;
-    padding: 5px 6px;
+    padding: 10px 6px;
     font-size: 14px;
     background-color: #fff;
     border: 1px solid silver;
@@ -527,7 +528,6 @@ a {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  position: relative;
   left: 40%
 }
 
@@ -538,4 +538,80 @@ a {
 
 footer {
   background-color: #fff;
+}
+
+.divider3 {
+  width: 100%;
+  border: 0.5px solid silver;
+  position: relative;
+ 
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(38, 38, 38, 1);
+}
+
+.btn-secondary {
+  text-decoration: none;
+}
+
+.foo {
+  height: 40px;
+}
+
+.top-links:hover  {
+  color: #F55800;
+}
+
+.main-post:hover {
+  background-color: #F55800;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.social-sidebar:hover {
+  background-color: #F55800;
+  border-radius: 5px;
+  transform: rotate(30deg);
+  transition: ease-out 0.5s;
+}
+
+.posting1-type:hover {
+  background-color: black;
+  color: #f55800;
+  font-size: 16px;
+  text-decoration: solid;
+  border-radius: 10px;
+  transition: ease-out 0.3s;
+}
+
+.tag-button:hover {
+  background-color: #F55800;
+  color: #fff;
+  border-radius: 5px;
+  transition: ease-out 0.3s;
+}
+
+.btn-resume:hover {
+  background-color: #fff;
+  color: #f55800;
+  border-radius: 10px;
+  transition: linear 0.3s;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #ff5800;
+  border-radius: 10px;
+  transition: linear 0.3s;
+  font-size: 18px;
+}
+
+.foo:hover {
+  background-color: #F55800;
+}
 }

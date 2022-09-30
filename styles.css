@@ -1,12 +1,13 @@
 html,
 body {
   width: 100%;
+  height: 100%;
   padding: auto;
   margin: auto;
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 786px) {
   .container {
     width: 100%;
     padding: 0;
@@ -27,7 +28,7 @@ body {
   top: 36px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 786px) {
   .name {
     font-size: 1em;
     top: 50px;
@@ -126,8 +127,7 @@ li {
 }
 
 .btn-secondary {
-  border: 1px solid #8993a4;
-  padding: 6px 12px;
+  padding: 4px 4px;
   border-radius: 4px;
   box-sizing: border-box;
   position: relative;
@@ -138,7 +138,7 @@ li {
 .btn-primary {
   background-color: #ff6b00;
   font-size: 18px;
-  color: #fff;
+  color: white;
   position: relative;
   bottom: 2.5px;
   left: 3px;
@@ -607,8 +607,20 @@ input {
   right: 50%;
 }
 
-.social-links-desktop, .desktop-form, .desktop-about-me, .desktop-skills, .desktop-projects, .desktop-contact, .desktop-posts-section {
+.social-links-desktop, .desktop-form, .desktop-about-me, .desktop-skills, .desktop-projects, .desktop-contact, .desktop-posts-section, #background-desktop {
   display: none;
+}
+
+.main-post {
+  padding: 8px;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0.5px solid black;
+}
+
+.primary-tag {
+  color: #fff;
+  text-decoration: none;
 }
 
 }
