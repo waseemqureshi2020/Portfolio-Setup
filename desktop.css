@@ -30,8 +30,6 @@
     justify-content: space-between;
     float: right;
     flex-direction: column;
-    font-family: sans-serif;
-    font-size: 18px;
     position: relative;
     bottom: 70px;
     margin: 30px 40px;
@@ -59,7 +57,6 @@
     font-family: 'Crete Round', serif;
     font-weight: 400;
     font-style: normal;
-    font-weight: 400;
     font-size: 72px;
     line-height: 82px;
     margin: 192px;
@@ -199,7 +196,6 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;
   }
 
   .technology {
@@ -237,7 +233,6 @@
     position: relative;
     bottom: 505px;
     left: 775px;
-    border: 1px soli#8993a4;
     padding: 8px 14px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -317,7 +312,7 @@
     padding: 6px 6px;
   }
 
-  .posts-heading{
+  .posts-heading {
     display: inline-flex;
     position: relative;
     left: 10px;
@@ -451,7 +446,6 @@
   }
 
   .about-me-para {
-    font-size: 20px;
     width: 80%;
     color: #fff;
     font-family: 'Inter', sans-serif;
@@ -492,7 +486,6 @@
     font-size: 22px;
     color: #fff;
     letter-spacing: 0.5px;
-    line-height: 40px;
     margin: 10px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -616,37 +609,37 @@
     position: relative;
     left: 90px;
     top: 55px;
-}
+  }
 
-#rect2 {
-  position: relative;
+  #rect2 {
+    position: relative;
     top: 62px;
     left: 80px;
-}
+  }
 
-#rect3 {
-  position: relative;
-  top: 62px;
-  left: 140px;
-}
+  #rect3 {
+    position: relative;
+    top: 62px;
+    left: 140px;
+  }
 
-#l1 {
-  position: relative;
-  bottom: 10px;
-}
+  #l1 {
+    position: relative;
+    bottom: 10px;
+  }
 
-.desktop-posts-section {
-  height: 1000px;
-}
+  .desktop-posts-section {
+    height: 1000px;
+  }
 
-.primary-tag {
-  color: #fff;
-  text-decoration: none;
-}
+  .primary-tag {
+    color: #fff;
+    text-decoration: none;
+  }
 
-.primary-tag:hover {
-  color:#f55800;
-}
+  .primary-tag:hover {
+    color:#f55800;
+  }
 
   .top-links:hover {
     color: #f55800;
