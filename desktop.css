@@ -49,6 +49,8 @@
     margin-bottom: 40px;
     background-color: #1c1a19;
     block-size: 700px;
+    width: 100%;
+    height: 
   }
 
   .intro {
@@ -61,8 +63,8 @@
     line-height: 82px;
     margin: 192px;
     position: relative;
-    right: 25px;
-    top: 162px;
+    right: 8%;
+    top: 25%;
   }
 
   .work {
@@ -75,8 +77,8 @@
     align-items: center;
     color: #fff;
     position: relative;
-    bottom: 30px;
-    left: 172px;
+    bottom: 0%;
+    left: 7%;
   }
 
   #details {
@@ -87,8 +89,8 @@
     background-color: #1c1a19;
     color: #fff;
     position: relative;
-    bottom: 40px;
-    right: 28px;
+    bottom: 0%;
+    right: 9%;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -107,8 +109,8 @@
     height: 98.96px;
     flex: none;
     position: relative;
-    bottom: 220px;
-    left: 80px;
+    bottom: 40%;
+    left: 2%;
     line-height: 20px;
   }
 
@@ -138,17 +140,13 @@
   }
 
   #background-desktop {
-    position: relative;
-    bottom: 620px;
-    left: 769px;
+    position: absolute;
+    top: 10%;
+    right: 0%;
     width: 500px;
     display: inline-flex;
-  }
+    z-index: 0;
 
-  .new-bgi {
-    padding: 0;
-    margin: 0;
-    position: relative;
   }
 
   .top-links {
@@ -248,7 +246,7 @@
 
   .desktop-posting {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30% 30% 30%;
     font-size: 14px;
     justify-content: space-between;
     height: 820px;
@@ -275,6 +273,8 @@
     background-size: cover;
     width: 369px;
     height: 435px;
+    align-items: center;
+    justify-content: center;
   }
 
   .tag-button {
@@ -391,6 +391,8 @@
 
   .work-container {
     height: 520px;
+    margin-left: 143px;
+    margin-right: 143px;
   }
 
   .desktop-about-me-container {
@@ -415,11 +417,11 @@
 
   .btn-resume {
     position: relative;
-    top: 20px;
+    top: 10px;
     background-color: #ff6b00;
     color: #fff;
     border: 1px solid #8993a4;
-    padding: 8px 14px;
+    padding: 10px 14px;
   }
 
   .divider2 {
@@ -459,7 +461,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     margin: 40px 100px;
-    height: 400px;
+    height: 450px;
   }
 
   .about-me-languages {
@@ -482,7 +484,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 7%;
+    left: 5%;
     font-size: 22px;
     color: #fff;
     letter-spacing: 0.5px;
@@ -607,20 +609,20 @@
 
   #rect {
     position: relative;
-    left: 90px;
-    top: 55px;
+    left: 30%;
+    top: 12.5%;
   }
 
   #rect2 {
     position: relative;
-    top: 62px;
-    left: 80px;
+    top: 14%;
+    left: 27%;
   }
 
   #rect3 {
     position: relative;
-    top: 62px;
-    left: 140px;
+    top: 14%;
+    left: 40%;
   }
 
   #l1 {
@@ -630,6 +632,12 @@
 
   .desktop-posts-section {
     height: 1000px;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1 1 0%;
   }
 
   .primary-tag {
