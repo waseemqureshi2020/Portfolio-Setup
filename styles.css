@@ -1,7 +1,5 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
   padding: auto;
   margin: auto;
   overflow-x: hidden;
@@ -216,7 +214,6 @@ body {
   .post-type1 {
     position: relative;
     top: 10px;
-    left: 12px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -338,6 +335,15 @@ body {
     right: 45px;
     margin: 58px;
     border: 0.5px solid #fff;
+  }
+
+  .divider01 {
+    width: 90%;
+    position: relative;
+    display: flex;
+    right: 45px;
+    margin: 58px;
+    border: 0.5px solid black;
   }
 
   .about-me {
