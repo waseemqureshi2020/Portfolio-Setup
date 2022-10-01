@@ -36,6 +36,9 @@
     bottom: 70px;
     margin: 30px 40px;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
   }
 
   .header-menu {
@@ -53,7 +56,8 @@
   .intro {
     width: 566px;
     color: #f55800;
-    font-family: 'Crete Round', sans-serif;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -68,7 +72,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 44px;
     display: flex;
     align-items: center;
@@ -88,12 +92,13 @@
     position: relative;
     bottom: 40px;
     right: 28px;
-    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-weight: 10;
     font-size: 16px;
     margin: 0 202px;
     max-width: 38%;
+    line-height: 32px;
   }
 
   .social-media {
@@ -137,7 +142,7 @@
 
   #background-desktop {
     position: relative;
-    bottom: 570px;
+    bottom: 620px;
     left: 769px;
     width: 500px;
     display: inline-flex;
@@ -156,10 +161,10 @@
 
   .divider {
     border: 0.5px solid black;
-    width: 60%;
+    width: 55%;
     position: relative;
-    bottom: 30px;
-    left: 300px;
+    bottom: 55px;
+    left: 420px;
   }
 
   .recent-work {
@@ -169,6 +174,9 @@
     justify-content: center;
     position: relative;
     left: 80px;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 40px;
   }
 
   .post-type1 {
@@ -179,6 +187,7 @@
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
+    font-family: 'Crete Round', serif;
   }
 
   .para-type1 {
@@ -187,6 +196,10 @@
     left: 780px;
     font-style: normal;
     width: 50%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
   }
 
   .technology {
@@ -205,35 +218,37 @@
 
   .main-post {
     margin: 10px 5px;
-    padding: 10px 6px;
-    font-size: 14px;
+    padding: 8px 8px;
+    font-size: 15px;
     background-color: #fff;
     border: 1px solid silver;
     color: #000;
     position: relative;
     bottom: 20%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
   }
 
   .btn-primary {
     background-color: #ff6b00;
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
     position: relative;
-    bottom: 490px;
+    bottom: 505px;
     left: 775px;
     border: 1px soli#8993a4;
     padding: 8px 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
   }
 
   .posts-section,
   .about-me,
   .contact-form-section {
     display: none;
-  }
-
-  a {
-    text-decoration: none;
-    color: #fff;
   }
 
   .desktop-posting {
@@ -263,6 +278,8 @@
   .posting6 {
     margin: 5% 2%;
     background-size: cover;
+    width: 369px;
+    height: 435px;
   }
 
   .tag-button {
@@ -277,29 +294,48 @@
 
   .tag1 {
     position: relative;
-    left: 20px;
-    top: 170px;
+    left: 10px;
+    top: 200px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 6px 6px;
   }
 
   .tag2 {
     display: inline-flex;
     position: relative;
-    left: 68px;
-    top: 141px;
+    left: 71px;
+    top: 161px;
+    padding: 6px 6px;
   }
 
   .tag3 {
     position: relative;
-    left: 145px;
-    top: 112px;
+    left: 157px;
+    top: 122px;
+    padding: 6px 6px;
   }
 
-  .posts-heading,
+  .posts-heading{
+    display: inline-flex;
+    position: relative;
+    left: 10px;
+    top: 170px;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44px;
+  }
+
   .posting-side {
     display: inline-flex;
     position: relative;
-    left: 5px;
+    left: 10px;
     top: 150px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
   }
 
   .posting1 {
@@ -331,13 +367,18 @@
 
   .posting1-type {
     width: 100%;
-    height: 35px;
+    height: 40px;
     position: relative;
-    top: 345px;
+    top: 400px;
     align-items: center;
     justify-content: center;
     background-color: #ff6b00;
     color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
   }
 
   .post-cards {
@@ -347,7 +388,6 @@
 
   #post-background {
     position: relative;
-    top: 10px;
     left: 80px;
     width: 684px;
     height: 448px;
@@ -405,13 +445,19 @@
   .about-me-heading {
     font-size: 72px;
     color: #f55800;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    line-height: 82px;
   }
 
   .about-me-para {
     font-size: 20px;
     width: 80%;
     color: #fff;
-    font-family: 'Inter', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .desktop-skills-container {
@@ -423,12 +469,17 @@
   }
 
   .about-me-languages {
-    display: inline-flex;
-    font-size: 36px;
+    display: flex;
+    font-size: 32px;
     text-align: center;
-    color: rgba(255, 107, 0, 1);
+    color: #fff;
     position: relative;
-    top: 5px;
+    left: 4%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 44px;
+    align-items: center;
+    justify-content: center;
   }
 
   .language-list,
@@ -437,11 +488,16 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    font-size: 20px;
+    left: 7%;
+    font-size: 22px;
     color: #fff;
     letter-spacing: 0.5px;
     line-height: 40px;
     margin: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 43px;
+    align-items: center;
   }
 
   .desktop-skills {
@@ -460,9 +516,11 @@
 
   .contact-form-para {
     font-size: 40px;
-    width: 80%;
+    width: 90%;
     color: black;
-    font-family: 'Inter', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 52px;
   }
 
   .form-list {
@@ -479,6 +537,11 @@
     margin: 1rem 0 0 0;
     background-color: #f55800;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
   }
 
   .form-list textarea {
@@ -549,6 +612,42 @@
     height: 40px;
   }
 
+  #rect {
+    position: relative;
+    left: 90px;
+    top: 55px;
+}
+
+#rect2 {
+  position: relative;
+    top: 62px;
+    left: 80px;
+}
+
+#rect3 {
+  position: relative;
+  top: 62px;
+  left: 140px;
+}
+
+#l1 {
+  position: relative;
+  bottom: 10px;
+}
+
+.desktop-posts-section {
+  height: 1000px;
+}
+
+.primary-tag {
+  color: #fff;
+  text-decoration: none;
+}
+
+.primary-tag:hover {
+  color:#f55800;
+}
+
   .top-links:hover {
     color: #f55800;
   }
@@ -559,8 +658,9 @@
   }
 
   .btn-primary:hover {
-    background-color: black;
-    color: #fff;
+    background-color: #fff;
+    color: #f55800;
+    border: 1px solid #f55800;
   }
 
   .social-sidebar:hover {
@@ -571,12 +671,13 @@
   }
 
   .posting1-type:hover {
-    background-color: black;
+    background-color: #fff;
     color: #f55800;
     font-size: 16px;
     text-decoration: solid;
     border-radius: 10px;
     transition: ease-out 0.3s;
+    border: 1px solid #f55800;
   }
 
   .tag-button:hover {
@@ -592,14 +693,19 @@
     border-radius: 10px;
     transition: linear 0.3s;
     font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    border: 1px solid #f55800;
   }
 
   .btn1:hover {
-    background-color: black;
+    background-color: #fff;
     color: #ff5800;
     border-radius: 10px;
     transition: linear 0.3s;
     font-size: 18px;
+    border: 1px solid #f55800;
   }
 
   .foo:hover {
